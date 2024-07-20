@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 import { PiMapPinLight, PiShoppingCartThin , PiCaretDownThin , PiMagnifyingGlassLight   } from "react-icons/pi";
 
 export default function Navbar() {
-  return (<div className="w-full flex  pt-2  justify-center  bg-[#ffe600]">
+  return (<div className="w-full flex  pt-2  justify-center items-center h-[6.4rem]  bg-[#ffe600]">
 
-    <div className="w-11/12 grid grid-cols-6 text-[.80rem] grid-rows-2 place-content-center items-center  bg-[#ffe600] h-[6rem]  ">
+    <div className="w-11/12 grid grid-cols-6 text-[.80rem] grid-rows-2 place-content-center items-center  bg-[#ffe600] h-[5rem]  ">
       <div className="col-[1/2] row-span-1 flex justify-center">
         <Link to={"/"}>
           <h3>
@@ -23,6 +23,9 @@ export default function Navbar() {
         <button className="h-[2.4rem] w-7 text-lg bg-white "><PiMagnifyingGlassLight /></button>
     </form>
       </div>
+      <div className="col-[5/7] row-span-1   ">
+         <img className="h-[2.4rem]" src="https://http2.mlstatic.com/D_NQ_983407-MLA77032071380_062024-OO.webp" alt="sd" />
+      </div>
       <div className="col-[1/2] items-center flex justify-center row-span-2">
       <PiMapPinLight  className="text-3xl pr-1 stroke-thin" />
       <button className="ronded-md flex flex-col ">
@@ -35,13 +38,13 @@ export default function Navbar() {
             <a className="flex items-center gap-1" href="#">Categorias <PiCaretDownThin /> </a>
           </li>
           <li>
-            <a href="#">Ofertas</a>
+            <a href="/ofertas">Ofertas</a>
           </li>
           <li>
-            <a href="#">Historial</a>
+            <a href="/historial">Historial</a>
           </li>
           <li>
-            <a href="#">Supermercado</a>
+            <a href="/supermercado">Supermercado</a>
           </li>
           <li>
             <a href="#">Moda</a>
@@ -58,14 +61,14 @@ export default function Navbar() {
         </ul>
       </div>
         
-
+    
       <div className="col-[5/7] row-span-2">
         <ul className="flex justify-center items-end gap-3">
           <li>
             <Link to={"/registro"}>Créa tu cuenta</Link>
           </li>
           <li>
-            <Link>Ingresa</Link>
+            <Link to={"/login"}>Ingresa</Link>
           </li>
           <li>
             <Link>Mis compras</Link>
@@ -75,6 +78,8 @@ export default function Navbar() {
           </li>
         </ul>
       </div>
+     
+     
     </div>
   </div>
   );

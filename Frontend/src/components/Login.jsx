@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Login() {
   return (
@@ -34,7 +35,7 @@ export default function Login() {
         <div className='flex  pt-4 gap-3'>
 
         <button className='bg-blue-500 rounded-lg   px-4 py-3 h-[3rem] w-[10rem] text-white'>Iniciar</button>
-        <button className='bg-blue-500  rounded-lg text-white h-[3rem] w-[10rem] px-4 py-3'>Crear cuenta</button>
+        <Link to={"/registro"} className='bg-blue-500  rounded-lg text-white h-[3rem] w-[10rem] px-4 py-3'>Crear cuenta</Link>
         </div>
        </div>
       </form>

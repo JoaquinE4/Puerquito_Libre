@@ -24,7 +24,7 @@ export default function CarouselDefault() {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       }} modules={[Navigation, Autoplay]} className="mySwiper">
-       {/*   <SwiperSlide>
+         <SwiperSlide>
             {" "}
             <img
               src={puerquillo}
@@ -34,7 +34,7 @@ export default function CarouselDefault() {
                 top: "0px",
               }}
             />
-          </SwiperSlide> */}
+          </SwiperSlide>
          <SwiperSlide>
             {" "}
             <img

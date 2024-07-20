@@ -1,4 +1,3 @@
-import img from "../assets/carouselHero.webp";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
  import 'swiper/css';
@@ -6,17 +5,17 @@ import 'swiper/css/navigation';
 
 import '../index.css';
 
-import { Navigation } from 'swiper/modules';
+import { Autoplay, Navigation } from 'swiper/modules';
 
-export default function CarouselDefault() {
+export default function CarouselSuper() {
   return (
     <>
-      <div className="relative w-full h-[28rem]">
-      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+      <div className="relative w-full h-[21rem]">
+      <Swiper navigation={true} modules={[Navigation, Autoplay]} autoplay={true} className="mySwiper">
           <SwiperSlide>
             {" "}
             <img
-              src={img}
+              src={"https://http2.mlstatic.com/D_NQ_714734-MLA77658770211_072024-OO.webp"}
               alt="imagen"
               className="w-full h-full object-cover z-0 relative"
               style={{
@@ -28,7 +27,7 @@ export default function CarouselDefault() {
             {" "}
             <img
               src={
-                "https://http2.mlstatic.com/D_NQ_945740-MLA77695503589_072024-OO.webp"
+                "https://http2.mlstatic.com/D_NQ_785241-MLA77658908515_072024-OO.webp"
               }
               alt="imagen"
               className="w-full h-full object-cover z-0 relative"
@@ -41,7 +40,7 @@ export default function CarouselDefault() {
             {" "}
             <img
               src={
-                "https://http2.mlstatic.com/D_NQ_763289-MLA77657237199_072024-OO.webp"
+                "https://http2.mlstatic.com/D_NQ_855413-MLA77496028746_072024-OO.webp"
               }
               alt="imagen"
               className="w-full h-full object-cover z-0 relative"
@@ -54,7 +53,7 @@ export default function CarouselDefault() {
             {" "}
             <img
               src={
-                "https://http2.mlstatic.com/D_NQ_945740-MLA77695503589_072024-OO.webp"
+                "https://http2.mlstatic.com/D_NQ_875137-MLA77658862035_072024-OO.webp"
               }
               alt="imagen"
               className="w-full h-full object-cover z-0 relative"
@@ -65,13 +64,7 @@ export default function CarouselDefault() {
           </SwiperSlide>
         </Swiper>
 
-        <div
-          className="h-[28rem] w-full absolute inset-0  z-10"
-          style={{
-            background:
-              "linear-gradient(0deg, rgb(219,219,230) 6%, rgb(219,219,230) 27%, rgba(0,0,0,0) 52%)",
-          }}
-        ></div>
+       
       </div>
     </>
   );

@@ -21,9 +21,9 @@ export default function OfertaDia() {
     <div className='col-[3/8] flex  flex-col gap-1 h-[28rem]  bg-white shadow-lg   rounded-lg'>
            <div className='flex items-center pl-6 pt-3 gap-4'>
 
-            <h2 className="font-semibold text-lg ">Oferta del día</h2> 
+            <h2 className="font-semibold text-lg ">Oferta </h2> 
             
-          <Link to={"#"} className="text-blue-500  hover:text-blue-800 pt-1 font-normal  text-sm">
+          <Link to={"/ofertas"} className="text-blue-500  hover:text-blue-800 pt-1 font-normal  text-sm">
             Mostrar más ofertas
           </Link>
         
