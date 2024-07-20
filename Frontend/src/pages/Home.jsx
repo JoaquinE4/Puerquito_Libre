@@ -37,7 +37,7 @@ export default function Home() {
           <br />
           <Categorias />
         </div>
-        <div className=" absolute bg-white top-[calc(100vh+550vh)]">
+        <div className=" absolute bg-white top-[calc(100vh+600vh)]">
           <div className="flex flex-col gap-6">
 
 
