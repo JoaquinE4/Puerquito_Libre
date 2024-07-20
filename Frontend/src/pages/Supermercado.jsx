@@ -84,7 +84,7 @@ export default function Supermercado() {
         </div>
 
         <div className="col-[1/7] gap-5 h-[32rem] w-full grid grid-col-4 grid-rows-2">
-          <div className=" col-[1/3] hover:shadow-xl transition-all delay-100  w-[41rem] flex flex-row row-[1/2]">
+          <div className=" col-[1/3] hover:shadow-xl transition-all delay-100  w-[38em] flex flex-row row-[1/2]">
             <div className="h-[15.4rem] flex items-center justify-center bg-white w-[18em]">
               <img
                 src="https://http2.mlstatic.com/D_Q_NP_902251-MLU76106723101_042024-N.webp"
@@ -99,7 +99,7 @@ export default function Supermercado() {
               <p className="text-xl text-gray-500 font-light">ANTES $50.000</p>
             </div>
           </div>
-          <div className=" col-[3/5]   hover:shadow-xl transition-shadow delay-100   w-[41rem] row-[1/2]">
+          <div className=" col-[3/5]   hover:shadow-xl transition-shadow delay-100   w-[38em] row-[1/2]">
             <div className="col-[1/3] bg- w-full flex flex-row row-[1/2]">
               <div className="col-[1/3]   w-full flex flex-row row-[1/2]">
                 <div className="h-[15.4rem] flex items-center justify-center bg-white  w-[23rem]">
@@ -122,7 +122,7 @@ export default function Supermercado() {
               </div>
             </div>{" "}
           </div>
-          <div className=" col-[1/3]  hover:shadow-xl transition-shadow delay-100  w-[41rem]   row-[2/3]">
+          <div className=" col-[1/3]  hover:shadow-xl transition-shadow delay-100  w-[38em]   row-[2/3]">
             <div className="col-[1/3] bg-sl w-full flex flex-row row-[1/2]">
               <div className="h-[15.4rem] flex items-center justify-center bg-white w-[18em]">
                 <img
@@ -143,7 +143,7 @@ export default function Supermercado() {
               </div>
             </div>{" "}
           </div>
-          <div className=" col-[3/5]  hover:shadow-xl transition-shadow delay-100   w-[41rem] row-[2/3]">
+          <div className=" col-[3/5]  hover:shadow-xl transition-shadow delay-100   w-[38em] row-[2/3]">
             <div className="col-[1/3]  0 w-full flex flex-row row-[1/2]">
               <div className="h-[15.4rem] flex items-center justify-center bg-white w-[18em]">
                 <img
@@ -228,10 +228,10 @@ export default function Supermercado() {
           </div>
         </div>
 
-        <div className=" flex flex-col col-[1/7]">
+        <div className=" flex flex-col items-center justify-evenly col-[1/7]">
           <h3 className="text-xl text-center py-9">SEGUI DESCUBRIENDO</h3>
           <div className=" gap-8 items-center justify-center pl-6   h-[36rem] grid grid-col-6 grid-rows-2">
-            <div className="hover:shadow-xl transition-all delay-100 col-[1/3] w-[28rem]  bg-slate-500 row-[1  ] rounded-md">
+            <div className="hover:shadow-xl transition-all delay-100 col-[1/3] w-[25rem]  bg-slate-500 row-[1  ] rounded-md">
               <div className="h-[13.9rem] ">
                 <img
                   className=" h-[13.9rem] w-[32rem] "
@@ -243,7 +243,7 @@ export default function Supermercado() {
                 <h3 className="text-gray-600">FESTEJOS</h3>
               </div>
             </div>
-            <div className="hover:shadow-xl transition-all delay-100 col-[3/5] w-[28rem] bg-slate-500 row-[1]  rounded-md">
+            <div className="hover:shadow-xl transition-all delay-100 col-[3/5] w-[25rem] bg-slate-500 row-[1]  rounded-md">
               <div className="h-[13.9rem] ">
                 <img
                   className="h-[13.9rem] w-[32rem] "
@@ -255,7 +255,7 @@ export default function Supermercado() {
                 <h3 className="text-gray-600">BEBES</h3>
               </div>
             </div>
-            <div className="hover:shadow-xl transition-all delay-100 col-[5/7] w-[28rem] bg-slate-500 row-[1]  rounded-md">
+            <div className="hover:shadow-xl transition-all delay-100 col-[5/7] w-[25rem] bg-slate-500 row-[1]  rounded-md">
               <div className="h-[13.9rem] ">
                 <img
                   className="h-[13.9rem] w-[32rem] "
@@ -267,7 +267,7 @@ export default function Supermercado() {
                 <h3 className="text-gray-600">DESPENSA</h3>
               </div>
             </div>
-            <div className="hover:shadow-xl transition-all delay-100 col-[1/3] w-[28rem] bg-slate-500 row-[2]  rounded-md">
+            <div className="hover:shadow-xl transition-all delay-100 col-[1/3] w-[25rem] bg-slate-500 row-[2]  rounded-md">
               <div className="h-[13.9rem] ">
                 <img
                   className="h-[13.9rem] w-[32rem] "
@@ -279,7 +279,7 @@ export default function Supermercado() {
                 <h3 className="text-gray-600">DESECHABLES</h3>
               </div>
             </div>
-            <div className="hover:shadow-xl transition-all delay-100 col-[3/5] w-[28rem] bg-slate-500 row-[2]  rounded-md">
+            <div className="hover:shadow-xl transition-all delay-100 col-[3/5] w-[25rem] bg-slate-500 row-[2]  rounded-md">
               <div className="h-[13.9rem] ">
                 <img
                   className="h-[13.9rem] w-[32rem] "
@@ -291,7 +291,7 @@ export default function Supermercado() {
                 <h3 className="text-gray-600">INCONTINENCIA</h3>
               </div>
             </div>
-            <div className="hover:shadow-xl transition-all delay-100 col-[5/7] w-[28rem] bg-slate-500 row-[2]  rounded-md">
+            <div className="hover:shadow-xl transition-all delay-100 col-[5/7] w-[25rem] bg-slate-500 row-[2]  rounded-md">
               <div className="h-[13.9rem] ">
                 <img
                   className="h-[13.9rem] w-[32rem] "
