@@ -44,7 +44,7 @@ export default function Navbar() {
             <Link to="/historial">Historial</Link>
           </li>
           <li>
-            <a href="/supermercado">Supermercado</a>
+            <Link to="/supermercado">Supermercado</Link>
           </li>
           <li>
             <Link to="#">Moda</Link>
