@@ -38,25 +38,25 @@ export default function Navbar() {
             <a className="flex items-center gap-1" href="#">Categorias <PiCaretDownThin /> </a>
           </li>
           <li>
-            <a href="/ofertas">Ofertas</a>
+            <Link to="/ofertas">Ofertas</Link>
           </li>
           <li>
-            <a href="/historial">Historial</a>
+            <Link to="/historial">Historial</Link>
           </li>
           <li>
             <a href="/supermercado">Supermercado</a>
           </li>
           <li>
-            <a href="#">Moda</a>
+            <Link to="#">Moda</Link>
           </li>
           <li className=" text-xs ">
-            <a  href="#">Mercado play</a>
+            <Link tof="#">Mercado play</Link>
           </li>
           <li>
-            <a href="#">Vender</a>
+            <Link to="#">Vender</Link>
           </li>
           <li>
-            <a href="#">Ayuda</a>
+            <Link to="#">Ayuda</Link>
           </li>
         </ul>
       </div>
